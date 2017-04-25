@@ -1,4 +1,7 @@
-# api documentation for  [react-stripe-checkout (v2.2.5)](https://github.com/azmenak/react-stripe-checkout)  [![npm package](https://img.shields.io/npm/v/npmdoc-react-stripe-checkout.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-react-stripe-checkout) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-react-stripe-checkout.svg)](https://travis-ci.org/npmdoc/node-npmdoc-react-stripe-checkout)
+# npmdoc-react-stripe-checkout
+
+#### basic api documentation for  [react-stripe-checkout (v2.2.5)](https://github.com/azmenak/react-stripe-checkout)  [![npm package](https://img.shields.io/npm/v/npmdoc-react-stripe-checkout.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-react-stripe-checkout) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-react-stripe-checkout.svg)](https://travis-ci.org/npmdoc/node-npmdoc-react-stripe-checkout)
+
 #### Easily inject checkout.js as a react component. Will load the script on demand and supports all the options from stripe docs.
 
 [![NPM](https://nodei.co/npm/react-stripe-checkout.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/react-stripe-checkout)
@@ -159,7 +162,8 @@
         "version": "npm run build",
         "watch": "babel StripeCheckout.js --out-file ./dist/main.js --source-maps inline --watch"
     },
-    "version": "2.2.5"
+    "version": "2.2.5",
+    "bin": {}
 }
 ```
 
